@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   
+    box-sizing: border-box;
+}
+body{
+  
+    color: #fff;
+
+}
+
+#show-more-btn{
+    background-color: #ff3929;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 10px auto 100px;
+    cursor: pointer;
+    display: none;
+}
+#Search-result{
+    width: 80%;
+    margin:100px auto 50px ;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:40px; */
+
+}
+#Search-result img{
+    width: 100%;
+    height: 230px;
+    border-radius: 5px;
+    object-position: center;
+}
